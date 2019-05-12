@@ -15,21 +15,53 @@
   <h1>FERNANDO THE HOG ... A BLOG</h1>
  <p class="text-info">i am a chub...pls feed me.</p>
 </div>
- 
-<img src="logfern.jpg" class="img-fluid" alt="Responsive image">
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container mt-3">
+
+<h2>Carousel</h2>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
   
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="logfern.jpg" alt="Los Angeles" width="1100" height="500">
     </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="carousel-item">
+      <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="ny.jpg" alt="New York" width="1100" height="500">
     </div>
   </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
 </div>
+
+</div> 
+
+    
 
 </body>
 </html>
