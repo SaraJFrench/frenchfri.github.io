@@ -7,4 +7,6 @@ testing website
 ![](/cover.jpg)
 ![](/cute.jpg)
 ![](/space.jpg)
+![](/smol.jpg)
+![](/yes.jpg)
 
