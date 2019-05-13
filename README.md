@@ -4,4 +4,7 @@ testing website
 ![](/logfern.jpg)
 ![](/roll.jpg)
 ![](/face.jpg)
+![](/cover.jpg)
+![](/cute.jpg)
+![](/space.jpg)
 
