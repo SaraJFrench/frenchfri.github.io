@@ -10,4 +10,6 @@ testing website
 ![](/smol.jpg)
 ![](/yes.jpg)
 ![](/bath.jpg)
+![](/chup_pug.jpg)
+![](/chup_coon.jpg)
 
