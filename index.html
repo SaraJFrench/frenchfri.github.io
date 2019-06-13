@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<link rel="stylesheet" href="animate.min.css">
   
 
 
@@ -19,6 +21,13 @@
 <style>
 h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
 body {font-family: "Open Sans"}
+
+</style>
+<style>
+    a.button {
+  animation-duration: 3s;
+  animation-delay: 2s;
+    }
 </style>
 <body class="w3-light-grey">
 
@@ -54,7 +63,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-white">
     <h1 class="w3-xxxlarge"><b>THE HOG ... A BLOG</b></h1>
-    <h6>Welcome to the blog of <span class="w3-tag">Fern's world</span></h6>
+    <h6>Welcome to the blog of <span class="w3-tag">Fern</span></h6>
   </header>
 
   <!-- Image header -->
@@ -76,8 +85,8 @@ and is wrapped around the whole page content, except for the footer in this exam
       <!-- Blog entry -->
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-center">
-          <h3>TITLE HEADING</h3>
-          <h5>Title description, <span class="w3-opacity">May 2, 2019</span></h5>
+          <h3>Fern</h3>
+          <h5>A Smoll Hog, <span class="w3-opacity">May 2, 2019</span></h5>
         </div>
 
         <div class="w3-justify">
@@ -237,11 +246,12 @@ and is wrapped around the whole page content, except for the footer in this exam
       </div>
       <hr>
 
-      <div class="w3-white w3-margin">
+      <!-- jello -->
+    <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
-          <h4></h4>
+          <a href="#" class="button animated jello"> Hellooo </a>
         </div>
-        <div class="w3-container w3-xlarge w3-padding">
+    <div class="w3-container w3-xlarge w3-padding">
         
         
          
@@ -279,12 +289,12 @@ function myFunction(id) {
     x.className = x.className.replace(" w3-show", "");
   }
 }
-
 function likeFunction(x) {
   x.style.fontWeight = "bold";
   x.innerHTML = "✓ Liked";
 }
 </script>
+
 
 </body>
 </html>
