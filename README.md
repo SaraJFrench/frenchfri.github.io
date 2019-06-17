@@ -15,3 +15,5 @@ testing website
 ![](/fattt.jpg)
 ![](/phat.jpg)
 ![](/big.jpg)
+![](/leaf.jpg)
+![](/ground.jpg)
