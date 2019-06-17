@@ -16,4 +16,4 @@ testing website
 ![](/phat.jpg)
 ![](/big.jpg)
 ![](/leaf.jpg)
-![](/ground.jpg)
+![](/swim.jpg)
